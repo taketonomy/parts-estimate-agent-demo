@@ -1,0 +1,41 @@
+part_id,name,category,material,spec,typical_unit_price
+PT-1001,L Bracket 50x50 t2.3 SS400,Bracket,SS400,"L bracket 50x50x30 t2.3, 1 bend, 2 holes dia6.6; process: laser cut + bend; finish: zinc plating",470
+PT-1002,L Bracket 75x75 t3.2 SS400,Bracket,SS400,"L bracket 75x75x40 t3.2, 1 bend, 4 holes dia9; process: laser cut + bend; finish: zinc plating",650
+PT-1003,L Bracket 50x50 t2.0 SUS304,Bracket,SUS304,"L bracket 50x50x30 t2.0, 1 bend, 2 holes dia6.6; process: laser cut + bend; finish: none",710
+PT-1004,L Bracket 60x60 t2.0 SUS304,Bracket,SUS304,"L bracket 60x60x30 t2.0, 1 bend, 2 holes dia6.6; process: laser cut + bend; finish: none",830
+PT-1005,L Bracket 100x100 t3.0 A5052,Bracket,A5052,"L bracket 100x100x50 t3.0, 1 bend, 4 holes dia9, rib; process: laser cut + bend; finish: anodize",1180
+PT-1006,Mounting Plate 100x80 t5 A5052,Plate,A5052,"mounting plate 100x80 t5, 4 holes M5 tapped; process: laser cut + tapping; finish: anodize",930
+PT-1007,Mounting Plate 150x100 t5 A5052,Plate,A5052,"mounting plate 150x100 t5, 6 holes M5 tapped; process: laser cut + tapping; finish: anodize",1290
+PT-1008,Mounting Plate 120x80 t6 SS400,Plate,SS400,"mounting plate 120x80 t6, 4 holes M6 tapped; process: laser cut + tapping; finish: black oxide",810
+PT-1009,Mounting Plate 200x150 t9 SS400,Plate,SS400,"mounting plate 200x150 t9, 8 holes M8 tapped, chamfer; process: laser cut + tapping; finish: black oxide",1370
+PT-1010,Mounting Plate 100x80 t4 SUS304,Plate,SUS304,"mounting plate 100x80 t4, 4 holes M5 tapped; process: laser cut + tapping; finish: none",1100
+PT-1011,Shaft dia10 L100 S45C,Shaft,S45C,"shaft dia10 x L100, h7 tolerance, both ends chamfer C0.5; process: CNC turning; finish: none",1040
+PT-1012,Shaft dia12 L150 S45C,Shaft,S45C,"shaft dia12 x L150, h7 tolerance, keyway 4x2.5; process: CNC turning; finish: none",1600
+PT-1013,Shaft dia20 L250 S45C,Shaft,S45C,"shaft dia20 x L250, h7 tolerance, keyway 6x3.5, induction hardened; process: CNC turning; finish: induction hardening",3020
+PT-1014,Shaft dia10 L100 SUS304,Shaft,SUS304,"shaft dia10 x L100, h7 tolerance, both ends chamfer C0.5; process: CNC turning; finish: none",1530
+PT-1015,Shaft dia16 L200 SUS304,Shaft,SUS304,"shaft dia16 x L200, h7 tolerance, M8 tapped end; process: CNC turning; finish: none",2980
+PT-1016,Bushing ID8 OD12 L15 C3604,Bushing,C3604,"bushing ID8 x OD12 x L15, press fit; process: CNC turning; finish: none",300
+PT-1017,Bushing ID10 OD14 L20 C3604,Bushing,C3604,"bushing ID10 x OD14 x L20, press fit; process: CNC turning; finish: none",380
+PT-1018,Bushing ID16 OD22 L30 C3604,Bushing,C3604,"bushing ID16 x OD22 x L30, flanged, oil groove; process: CNC turning; finish: none",580
+PT-1019,Bushing ID10 OD14 L20 POM,Bushing,POM,"bushing ID10 x OD14 x L20, resin, press fit; process: CNC turning; finish: none",210
+PT-1020,Bushing ID20 OD26 L25 POM,Bushing,POM,"bushing ID20 x OD26 x L25, resin, flanged; process: CNC turning; finish: none",280
+PT-1021,Hex Spacer M3 L10 A5052,Spacer,A5052,"hex spacer M3 x L10, width across flats 5.5, female-female; process: CNC turning + hex milling; finish: none",140
+PT-1022,Hex Spacer M4 L15 A5052,Spacer,A5052,"hex spacer M4 x L15, width across flats 7, female-female; process: CNC turning + hex milling; finish: none",190
+PT-1023,Hex Spacer M3 L10 SUS303,Spacer,SUS303,"hex spacer M3 x L10, width across flats 5.5, female-female; process: CNC turning + hex milling; finish: none",170
+PT-1024,Hex Spacer M5 L20 SUS303,Spacer,SUS303,"hex spacer M5 x L20, width across flats 8, male-female; process: CNC turning + hex milling; finish: none",300
+PT-1025,Hex Spacer M4 L15 C3604,Spacer,C3604,"hex spacer M4 x L15, width across flats 7, female-female, nickel look; process: CNC turning + hex milling; finish: none",220
+PT-1026,Flange OD80 t12 SS400,Flange,SS400,"flange OD80 x t12, bore dia25, 4 holes dia9 on PCD60; process: CNC turning + drilling; finish: zinc plating",1570
+PT-1027,Flange OD100 t15 SS400,Flange,SS400,"flange OD100 x t15, bore dia30, 4 holes dia11 on PCD75; process: CNC turning + drilling; finish: zinc plating",1870
+PT-1028,Flange OD80 t12 SUS304,Flange,SUS304,"flange OD80 x t12, bore dia25, 4 holes dia9 on PCD60; process: CNC turning + drilling; finish: none",2380
+PT-1029,Flange OD120 t16 SUS304,Flange,SUS304,"flange OD120 x t16, bore dia35, 6 holes dia11 on PCD95, O-ring groove; process: CNC turning + drilling; finish: electropolish",4420
+PT-1030,Flange OD100 t15 A5052,Flange,A5052,"flange OD100 x t15, bore dia30, 4 holes dia11 on PCD75; process: CNC turning + drilling; finish: anodize",2410
+PT-1031,Sheet Cover 150x100x50 t1.0 SPCC,Cover,SPCC,"sheet cover 150x100x50 t1.0, 4 bends, vent slots; process: laser cut + multi bend; finish: zinc plating",1050
+PT-1032,Sheet Cover 200x150x60 t1.2 SPCC,Cover,SPCC,"sheet cover 200x150x60 t1.2, 4 bends, vent slots; process: laser cut + multi bend; finish: zinc plating",1320
+PT-1033,Sheet Cover 300x200x80 t1.6 SPCC,Cover,SPCC,"sheet cover 300x200x80 t1.6, 4 bends, vent slots, welded corners; process: laser cut + multi bend; finish: zinc plating",2040
+PT-1034,Sheet Cover 150x100x50 t1.5 A5052,Cover,A5052,"sheet cover 150x100x50 t1.5, 4 bends, vent slots; process: laser cut + multi bend; finish: anodize",1580
+PT-1035,Sheet Cover 200x150x60 t1.0 SUS304,Cover,SUS304,"sheet cover 200x150x60 t1.0, 4 bends, hairline finish; process: laser cut + multi bend; finish: none",2350
+PT-1036,Dowel Pin dia6 L20 SUJ2,Pin,SUJ2,"dowel pin dia6 x L20, m6 tolerance, hardened and ground; process: CNC turning + grinding; finish: none",170
+PT-1037,Dowel Pin dia8 L30 SUJ2,Pin,SUJ2,"dowel pin dia8 x L30, m6 tolerance, hardened and ground; process: CNC turning + grinding; finish: none",230
+PT-1038,Dowel Pin dia10 L40 SUJ2,Pin,SUJ2,"dowel pin dia10 x L40, m6 tolerance, hardened and ground; process: CNC turning + grinding; finish: none",290
+PT-1039,Dowel Pin dia8 L30 S45C,Pin,S45C,"dowel pin dia8 x L30, m6 tolerance, ground; process: CNC turning + grinding; finish: black oxide",210
+PT-1040,Dowel Pin dia6 L20 SUS304,Pin,SUS304,"dowel pin dia6 x L20, m6 tolerance, ground; process: CNC turning + grinding; finish: none",200
