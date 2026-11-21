@@ -202,11 +202,18 @@ def _fmt(est, label):
     return f"{est['unit_price']:,} JPY"
 
 
+def positive_int(value):
+    n = int(value)
+    if n < 1:
+        raise argparse.ArgumentTypeError(f"must be a positive integer, got {value}")
+    return n
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Draft a parts estimate from retrieved fictional records.")
     ap.add_argument("query", help="free-text part name / spec, e.g. 'L bracket SUS304 t2.0 60x60'")
-    ap.add_argument("--qty", type=int, default=None, help="requested quantity (optional, weights retrieval)")
-    ap.add_argument("-k", type=int, default=TOP_K_PARTS, help="number of similar parts to retrieve")
+    ap.add_argument("--qty", type=positive_int, default=None, help="requested quantity (optional, weights retrieval)")
+    ap.add_argument("-k", type=positive_int, default=TOP_K_PARTS, help="number of similar parts to retrieve")
     args = ap.parse_args(argv)
     parts, estimates = load_parts(), load_estimates()
     draft = draft_estimate(args.query, parts, estimates, qty=args.qty, k=args.k)

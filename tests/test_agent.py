@@ -1,3 +1,4 @@
+import contextlib
 import io
 import re
 import unittest
@@ -90,6 +91,12 @@ class DraftCitationTest(unittest.TestCase):
         self.assertEqual(len(figure_lines), 4)
         for line in figure_lines:
             self.assertRegex(line, r"<- EST-\d{4} \(PT-\d{4}, ")
+
+    def test_cli_rejects_non_positive_numbers(self):
+        for args in (["--qty", "-1"], ["--qty", "0"], ["-k", "-1"], ["-k", "0"]):
+            with self.subTest(args=args), redirect_stdout(io.StringIO()), \
+                    contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
+                agent.main(["L bracket SUS304 t2.0 60x60", *args])
 
     def test_excluded_estimates_are_not_used(self):
         hidden = next(e["estimate_id"] for e in self.estimates if e["part_id"] == "PT-1004")
