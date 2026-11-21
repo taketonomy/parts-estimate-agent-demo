@@ -90,12 +90,12 @@ The backtest hides one estimate at a time, uses that part's name + spec as the q
 ## Scope
 
 ### Verified
-- `python3 -m unittest discover` passes (11 tests). They check that:
+- `python3 -m unittest discover` passes (12 tests). They check that:
   - the data loads and every estimate references a master part
   - four known queries return the expected nearest part, and same-family parts rank first
   - every draft figure for every part cites at least one retrieved `estimate_id` whose value equals the figure
   - the printed draft has a citation on each figure line
-  - hidden estimates are never used
+  - hidden estimates are never used, and the CLI rejects non-positive `--qty` / `-k`
   - the backtest is deterministic and reaches >= 50% hit rate within +-20%
 - Backtest on the fictional data: leave-one-out gives 60 cases, median APE 10.1% and a 65.0% hit rate within +-20%. The stricter new-part scenario gives median APE 28.8% and a 41.7% hit rate. These figures only describe this synthetic dataset.
 - `scripts/generate_data.py` reproduces the committed CSVs exactly.
